@@ -1,0 +1,227 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   box-sizing: border-box;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+#container {
+    min-height:100%;
+    position:relative;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header {
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+header>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    color: white !important;
+}
+
+nav a:hover {
+    background-color:grey;
+    transition: 1s;
+    color: white;
+}
+
+section {
+    margin-bottom: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section.cover {
+    margin-left: 0;
+    margin-right: 0;
+    height: 100vh;
+    background: linear-gradient(rgba(13, 13, 14, 0.8), rgba(8, 8, 8, 0.8)), url(./imgs/cover.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+section .cover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section .cover-text h1 {
+    font-family: 'Quagera', sans-serif;
+    font-size: 5rem;
+}
+
+section .cover-text p {
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section .item-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section .items-header {
+    margin: 1remauto;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+section#items article {
+    width: 350px;
+    margin: 1rem 1rem;
+    color: black;
+}
+
+article#ring {
+    padding: 10px;
+    box-shadow: 2px 2px 10px black;
+}
+
+article#ring:hover {
+    transform: scale(1.04);
+    transition: .6s;
+}
+
+article#ring .item-banner {
+    height: 30vh;
+    background: url(./imgs/ring.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(0%);
+}
+
+article#ring .item-banner:hover {
+    filter: drop-shadow(100%);
+    transition: .6s;
+}
+
+article#ring .item-details,
+article#bracelet .item-details,
+article#necklace .item-details {
+    text-align: center;
+}
+
+article#ring .item-details h2,
+article#bracelet .item-details h2,
+article#necklace .item-details h2 {
+    font-size: 20px;
+    margin: 1rem 0rem;
+}
+
+article#bracelet {
+    box-shadow: 2px 2px 10px black;
+    padding: 10px;
+}
+
+article#bracelet:hover {
+    transform: scale(1.04);
+    transition: .6s;
+}
+
+article#bracelet .item-banner {
+    height: 30vh;
+    background: url(./imgs/bracelet.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(0%);
+}
+
+article#bracelet .item-banner:hover {
+    filter: drop-shadow(100%);
+    transition: .6s;
+}
+
+article#necklace {
+    box-shadow: 2px 2px 10px black;
+    padding: 10px;
+}
+
+article#necklace:hover {
+    transform: scale(1.04);
+    transition: .6s;
+}
+
+article#necklace .item-banner {
+    height: 30vh;
+    background: url(./imgs/necklace.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(0%);
+}
+
+article#necklace .item-banner:hover {
+    filter: drop-shadow(100%);
+    transition: .6s;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    height: 20vh;
+    align-items: center;
+    color: white;
+    padding: 0 2rem;
+    justify-content: center;
+}
+
+footer img {
+    width: 70px;
+}
+
+.insta-icon {
+    color: white;
+}

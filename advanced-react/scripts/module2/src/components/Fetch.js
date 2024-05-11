@@ -1,0 +1,17 @@
+import React from 'react';
+
+function Fetch() {
+
+    console.log('Another customer approaching');
+
+    fetch('https://randomuser.me/api/?results=1')
+        .then(response => response.json())
+        .then(data => console.log(data));
+
+    console.log(`Our valued customer, please
+        give me a moment while I get some
+        information back from the Records Dept`)
+
+    return <></>
+}
+export default Fetch;
