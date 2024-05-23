@@ -1,0 +1,13 @@
+1- Which of the following are true about state in React? Select all that apply.
+    - Forms and state are linked in React.
+    State in React also ties in with forms - specifically, understanding controlled and uncontrolled components.
+    - Without state, components in React would be static.
+    Without state, you would end up with static components that would not allow for any interactivity.
+    - Components and state are linked in React.
+    In React, components and state are inextricably linked.
+    - State is one of the foundations of React.
+    Being able to work with state is one of the foundations of React.
+2- True or false: In JavaScript, the fetch() method is considered a façade function.
+    True. The fetch() method is considered a façade function because it is an API to the XHR browser functionality, which exists outside of the JavaScript engine, but is still a part of a browser.
+3- A UX designer’s job is to presume what users will want or need from a good or service about matters such as form validation and accessibility.
+    False. Since every user has a unique user experience, the most crucial thing to remember when creating a product is that even though you may have designed it, you may not be one of its users. As a result, you cannot presume what a user wants or needs.

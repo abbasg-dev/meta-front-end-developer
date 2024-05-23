@@ -1,0 +1,17 @@
+npm install netlify-cli -g
+netlify login
+create new file in root netlify.toml
+
+[build]
+    command = "npm run build" 
+    publish = "/build" 
+
+[[redirects]]
+    from = "/*" 
+    to = "/index.html" 
+    status = 200 
+	
+netlify init
+npm run build
+netlify deploy
+netlify deploy --prod
